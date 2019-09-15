@@ -8,7 +8,7 @@ export default class card extends Component {
         <div className="col s12 l6">
           <div className="card sticky-action">
             <div className="card-image">
-              <img src="this.props.data.img" alt="" />
+              <img src={this.props.img} alt="" />
               <a href="" className="halfway-fab btn-floating pink pulse">
                 <i className="material-icons">favorite</i>
               </a>

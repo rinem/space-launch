@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 export default class navbar extends Component {
   render() {
@@ -7,21 +8,25 @@ export default class navbar extends Component {
         <div className="navbar-fixed">
           <nav className="nav-wrapper black">
             <div className="container">
-              <a href="" className="brand-logo">
+              <NavLink href="" className="brand-logo">
                 Space-Launch
-              </a>
-              <a href="" className="sidenav-trigger" data-target="mobile-links">
+              </NavLink>
+              <NavLink
+                href=""
+                className="sidenav-trigger"
+                data-target="mobile-links"
+              >
                 <i className="material-icons">menu</i>
-              </a>
+              </NavLink>
               <ul className="right hide-on-med-and-down">
                 <li>
-                  <a href="">Home</a>
+                  <NavLink to={"/"}>Home</NavLink>
                 </li>
                 <li>
-                  <a href="">Agencies</a>
+                  <NavLink to={"agencies"}>Agencies</NavLink>
                 </li>
                 <li>
-                  <a href="">Discuss</a>
+                  <NavLink to={"discuss"}>Discuss</NavLink>
                 </li>
               </ul>
             </div>

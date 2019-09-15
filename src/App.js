@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Home from "./comp/views/home";
 import Navbar from "./comp/stateless/navbar";
+import Agencies from "./comp/views/agencies";
+import Discuss from "./comp/views/discuss";
 
 export default class App extends Component {
   render() {
@@ -10,7 +12,9 @@ export default class App extends Component {
         <BrowserRouter>
           <Navbar />
           <Switch>
-            <Route to={"/"} component={Home} />
+            <Route path={"/discuss"} component={Discuss} />
+            <Route path={"/agencies"} component={Agencies} />
+            <Route path={"/"} component={Home} />
           </Switch>
         </BrowserRouter>
       </div>
