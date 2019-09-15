@@ -4,16 +4,16 @@ import Fetch from "../api/fetch";
 
 var img = [
   "",
-  "../../../assets/img1.jpg",
-  "../../assets/img3.jpg",
-  "../../assets/img4.jpg",
-  "../../assets/img1.jpg",
-  "../../assets/img1.jpg",
-  "../../assets/img1.jpg",
-  "../../assets/img1.jpg",
-  "../../assets/img1.jpg",
-  "../../assets/img1.jpg",
-  "../../assets/img1.jpg"
+  "https://imgur.com/NosdF5E.jpg",
+  "https://imgur.com/DmYm9Xq.jpg",
+  "https://imgur.com/JCQRO1L.jpg",
+  "https://imgur.com/ibjqBqo.jpg",
+  "https://imgur.com/3x9u7aI.jpg",
+  "https://imgur.com/3AKYzOn.jpg",
+  "https://imgur.com/pMfLuVd.jpg",
+  "https://imgur.com/QJC8dML.jpg",
+  "https://imgur.com/2jeOghS.jpg",
+  "https://imgur.com/lDK88Oh.jpg"
 ];
 
 export default class home extends Component {
