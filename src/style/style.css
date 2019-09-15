@@ -1,0 +1,16 @@
+
+
+body {
+    background: url("img2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+img {
+   max-width: 100%;
+   height: auto;
+ }
+
+ h2 {
+     color: rgba(42, 183, 178, 0.87);
+     text-align: center;
+     padding: 20px;
+ }
