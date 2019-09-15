@@ -35,8 +35,8 @@ export default class home extends Component {
       <div>
         <div className="container">
           <h2>Upcoming Rocket Launches</h2>
+          <div className="row">{this.state.ren}</div>
         </div>
-        <div className="row">{this.state.ren}</div>
       </div>
     );
   }
